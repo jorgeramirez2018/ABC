@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4f4f9; 
+    color: #333; 
+    line-height: 1.6; 
+    padding-top: 20px; 
+  }
+  
+
+
+header{
+    background-color: #3f5b73c9;
+    padding: 2px;
+    text-align: center;
+}
+header p {
+    font-weight: bold;
+    color: white;
+}
+  
+
+nav{
+    background-color: #153652c9;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1em;
+    padding: 8px 15px; 
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #5a6e77; 
+}
+
+.estilos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+.estilos .texto {
+    max-width: 50%;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+#sobreMi img {
+    height: 400px;
+    width: 600px;
+    padding: 20px;
+    border: #dd6767 solid 2px;
+}
+.contenido{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 30px;
+}
